@@ -6,12 +6,18 @@ GEM
       amq-protocol (>= 1.9.2)
     carrot-top (0.0.7)
       json
+    embedly (1.9.1)
+      json
+      oauth
+      querystring
     hutch (0.15.0)
       bunny (>= 1.7.0)
       carrot-top (~> 0.0.7)
       multi_json (~> 1.5)
     json (1.8.1)
     multi_json (1.11.0)
+    oauth (0.4.7)
+    querystring (0.1.0)
     rake (10.4.2)
 
 PLATFORMS
@@ -19,5 +25,6 @@ PLATFORMS
 
 DEPENDENCIES
   bunny (~> 1.7.0)
+  embedly (~> 1.9.1)
   hutch (~> 0.15.0)
   rake (~> 10.4.2)

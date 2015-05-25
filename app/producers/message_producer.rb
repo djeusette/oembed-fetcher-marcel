@@ -9,8 +9,11 @@ module OEmbedFetcher
     end
 
     def publish
-      10.times do |i|
-        Hutch.publish('example.a', subject: "test #{i}", action: 'received')
+      2.times do |i|
+        message = {
+          url: "http://www.djump.in"
+        }
+        Hutch.publish("oembed.request", message)
       end
     end
 
