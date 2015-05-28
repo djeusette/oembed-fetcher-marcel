@@ -5,6 +5,7 @@ module OEmbedFetcher
   class MessageProducer
 
     def initialize
+      Hutch::Config.set(:mq_exchange, "messages")
       Hutch.connect
     end
 

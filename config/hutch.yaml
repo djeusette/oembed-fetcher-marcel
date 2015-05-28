@@ -2,6 +2,7 @@ mq_username: guest
 mq_password: guest
 mq_host: localhost
 mq_port: 5672
+mq_exchange: messages
 require_paths:
   - ./main.rb
 autoload_rails: false
