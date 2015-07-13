@@ -1,3 +1,9 @@
+PATH
+  remote: /Users/djump/Code/Ruby/marcel
+  specs:
+    marcel (0.0.1)
+      hutch (~> 0.15)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -24,7 +30,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bunny (~> 1.7.0)
   embedly (~> 1.9.1)
-  hutch (~> 0.15.0)
+  marcel!
   rake (~> 10.4.2)

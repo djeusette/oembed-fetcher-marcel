@@ -1,5 +1,4 @@
 require File.expand_path('../config/environment', __FILE__)
 
-producer = OEmbedFetcher::MessageProducer.new
-
+producer = OEmbedFetcher::Producers::MessageProducer.new
 producer.publish
